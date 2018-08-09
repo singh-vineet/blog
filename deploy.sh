@@ -5,7 +5,7 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # Build the project.
 hugo -t pristine # if using a theme, replace with `hugo -t <YOURTHEME>`
 
-msg="rebuilding site `date`"
+msg="rebuilding site contents`date`"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
@@ -27,7 +27,7 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
-git push -u origin master
+git push  origin master
 
 # Come Back up to the Project Root
 cd ..
