@@ -1,6 +1,7 @@
 ---
 title: "Why Blockchain is Not a Solution To Every Problem"
 date: 2018-02-15T18:48:37Z
+draft: false
 ---
 
 ```[Jeanpierre Rupp](https://medium.com/@xenog/) and I wrote this in 2015, but surprisingly it still is true```
